@@ -1,0 +1,42 @@
+{
+    "name": "silawrenc/dylan",
+    "description": "Data sanitisation in php",
+    "keywords": ["sanitisation", "filtering"],
+    "version": "0.0.1",
+
+    "type": "library",
+    "license": "MIT",
+
+    "homepage": "http://github.com/silawrenc/dylan",
+
+    "authors": [
+        {
+            "name": "Simon Lawrence"
+        }
+    ],
+
+    "autoload": {
+        "files": [
+            "./src/sanitise/array.php",
+            "./src/sanitise/casting.php",
+            "./src/sanitise/construct.php",
+            "./src/sanitise/date.php",
+            "./src/sanitise/generic.php",
+            "./src/sanitise/math.php",
+            "./src/sanitise/multiple.php",
+            "./src/sanitise/string.php",
+            "./src/callables.php",
+            "./src/dylan.php",
+            "./src/key.php",
+            "./src/sanitise.php"
+        ]
+    },
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
